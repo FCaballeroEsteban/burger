@@ -1,0 +1,460 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url(variables.css);
+
+*{
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background: var(--colorthird);
+    width: 100%;
+    
+    
+}
+
+main{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+header{
+    position: sticky;
+    top: 0;
+    width: 100%;
+    height: 10vh;
+    background-color: rgba(166, 1, 1, 0.386);
+    display: flex;
+    justify-content: space-around;
+    z-index: 1000;
+    /* margin-bottom: 0; */
+}
+
+.tituloprin{
+    font-size: 1.5rem;
+    color: var(--colorsecundary);
+    display: flex;
+    align-items: center;
+}
+
+.nav-buttons{
+    padding: 0 100px;
+    color: var(--colorsecundary);
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    
+}
+.nav-link a{
+    text-decoration: none;
+    color: var(--colorsecundary);
+}
+.buttons a{
+    text-decoration: none;
+    color: var(--colorsecundary);
+}
+.section-principal{
+    width: 80%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-principal .content-principal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+
+.section-principal .img-website{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-website img{
+    
+    
+    max-width: 90%;
+}
+
+.section-principal .title-website{
+    width: 100%;
+    color: var(--colorprimary);
+    font-size: 3rem;
+    display: flex;
+    justify-content: start;
+    /* padding-top: 20px; */
+}
+
+.section-principal .subtitle-website{
+    width: 100%;
+    font-size: 2.5rem;
+    color: var(--colorsecundary);
+}
+
+.section-principal .boton-website{
+    position: relative;
+    top: 10px;
+    text-decoration: none;
+    background-color: var(--colorprimary);
+    padding: 10px 15px;
+    display: inline-block;
+    border: none;
+    cursor: pointer;
+    color: var(--colorsecundary);
+    font-weight: 700;
+}
+
+.section-about{
+    width: 80%;
+    height: 100vh;
+    
+   /*  margin-left: 400px; */
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-about .content-about{
+    display: flex;
+    justify-content: center;
+    padding-left: 100px;
+    flex-direction: column;
+    align-items: start;
+    width: 100%;
+    height: 100%;
+}
+
+.section-about .title-about{
+    width: 100%;
+    font-size: 3.2rem;
+    color: var(--colorprimary);
+    display: flex;
+    
+    
+    
+   
+    
+        
+}
+.section-about .img-about{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-about img{
+   max-width: 90%;
+    
+   
+}
+.section-about .subtitle-about{
+    font-size: 2.0rem;
+    color: var(--colorsecundary);
+    display: flex;
+    
+    flex-direction: row;
+}
+
+.section-about .paragraph-about{
+    width: auto;
+    font-size: 1.5rem;
+    color: var(--colorsecundary);
+    display: flex;
+    
+    
+}
+
+.section-about .boton-about{
+    margin-top: 10px;
+    text-decoration: none;
+    background-color: var(--colorprimary);
+    padding: 10px 15px;
+    display: inline-block;
+    border: none;
+    cursor: pointer;
+    color: var(--colorsecundary);
+    font-weight: 700;
+    display: flex;
+    
+}
+
+.section-menu{
+    width: 80%;
+    height: 100vh;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+}
+
+.section-menu .title-menu h6{
+    font-size: 1.0rem;
+    color: var(--colorprimary);
+    display: flex;
+    justify-content: center;
+    
+} 
+
+.section-menu .subtitle-menu h3{
+    font-size: 2.5rem;
+    color: var(--colorsecundary);
+    display: flex;
+    justify-content: center;
+    
+}
+
+.section-menu .food-menu{
+    width: 20vw;
+    display: flex;
+    justify-content: center;
+}
+.section-menu .rows-content{
+    background-color: var(--colorfifth);
+    border-radius: 25px;
+    margin: 20px;
+    height: fit-content;
+    box-shadow: 2px 6px 10px rgba(0, 0, 0, 0.7);
+    
+}
+.section-menu .menu-cards{
+    width: 50%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+.section-menu .price-menu{
+    color: var(--colorprimary);
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    font-weight: 800;
+}
+
+.section-menu .food-menu img{
+    width: 15vw;
+    height: 15vw;
+}
+
+.rows-content .icon-menu{
+   
+    height: 70px;
+    display: flex;
+    justify-content: end;
+
+}
+.rows-content .icon-menu i{
+    margin: auto;
+    color: var(--colorsecundary);
+    /* display: flex;
+    justify-content: center; */
+    
+}
+.icon-menu .btn-icon{
+    background-color: #ff712ac4;
+    box-shadow: 2px 6px 5px rgba(128, 128, 128, 0.996);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: auto 10px auto auto;
+    color: var(--colorprimary);
+    display: flex;
+    justify-content: center;
+    
+}
+.icon-menu .btn-icon:hover{
+    box-shadow: -0px 0px 5px rgba(128, 128, 128, 0.996);
+    background-color: var(--colorprimary);
+    cursor: pointer;
+}
+.section-service{
+    width: 80%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-service .title-service h6{
+    font-size: 1.0rem;
+    color: var(--colorprimary);
+    display: flex;
+    justify-content: center;
+}
+.section-service .subtitle-service h3{
+    font-size: 2.5rem;
+    color: var(--colorsecundary);
+    display: flex;
+    justify-content: center;
+}
+.section-service .content-service{
+    width: 50%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+.section-service .order-service img{
+    width: 15vw;
+    height: 15vw;
+    margin: 50px;
+}
+.content-service .order-service h4{
+    display: flex;
+    justify-content: center;
+    color: var(--colorprimary);
+}
+.content-service .order-service p{
+    padding: 5px 15px;
+    text-align: center;
+    color: var(--colorsecundary);
+    display: flex;
+    justify-content: center;
+}
+.section-information{
+    width: 80%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--colorfifth);
+}
+.information-content .title-information{
+    text-align: center;
+    color: var(--colorsixth);
+    font-size: 2.5rem;
+}
+.information-content .button-information{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+.button-information .boton-information{
+    text-decoration: none;
+    background-color: var(--colorprimary);
+    padding: 10px 15px;
+    display: inline-block;
+    border: none;
+    cursor: pointer;
+    color: var(--colorsecundary);
+    font-weight: 700;
+}
+footer{
+    color: var(--colorsecundary);
+    width: 80%;
+    height: 90vh;
+    display: flex;
+    justify-content: space-evenly;
+    /* align-items: center; */
+    padding: 200px 50px;
+    
+}
+.footer-menu .links-footer ul{
+    padding-top: 10px;
+    color: var(--colorsecundary);
+    list-style: none;
+    font-size: 1.0rem;
+}
+
+.footer-menu .links-footer li a{
+    color: var(--colorsecundary);
+    text-decoration: none;
+    font-size: 1.0rem;
+}
+.footer-menu .underlined{
+    width: 50px;
+    height: 1px;
+    background-color: var(--colorprimary);
+}
+
+.hamburguesa {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+
+.burger{
+    opacity: .3;
+    position: fixed;
+    bottom: 0;
+    
+
+    animation: burgers 4s linear infinite;
+}
+.burgers .burger img{
+    width: 100px;
+    height: 100px;
+}
+
+.burger:nth-child(1){
+    width: -10%;
+    height: -10%;
+    right: 1000px;
+    animation-duration: 4s;
+}
+
+.burger:nth-child(2){
+    width: 60%;
+    height: 60%;
+    left: 1000px;
+    animation-duration: 4s;
+}
+
+.burger:nth-child(3){
+    width: 10%;
+    height: 10%;
+    left: 900px;
+    animation-duration: 4s;
+}
+
+.burger:nth-child(4){
+    width: 50%;
+    height: 60%;
+    left: 400px;
+    animation-duration: 4s;
+}
+
+.burger:nth-child(5){
+    width: 20%;
+    height: 40%;
+    right: 1000px;
+    animation-duration: 4s;
+}
+
+@keyframes burgers{
+    0%{
+        bottom: 100%;
+        opacity: 0;
+    } 
+    50%{
+        opacity: .2;
+    }
+    100%{
+        bottom: 0;
+        opacity: 0;
+    }   
+}
+
+#cel-menu{
+    display: none;
+}
+.phone-menu .bx-menu{
+    display: none;
+}
+
+
+
